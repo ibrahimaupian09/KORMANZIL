@@ -10,10 +10,13 @@ import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx"
 import HowItWorks from './HowItWorks/HowItWorks.jsx'
 import Testimonials from './Testimonials/Testimonials.jsx'
 import Footer from './Footer/Footer.jsx'
+// new import
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+    {/* <App /> */}
     <Navbar/>
     <HomeBanner/>
     <FeaturedProperties/>
@@ -22,5 +25,6 @@ createRoot(document.getElementById('root')).render(
     <HowItWorks/>
     <Testimonials/>
     <Footer/>
+    </BrowserRouter>
   </StrictMode>,
 )
