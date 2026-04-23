@@ -8,6 +8,8 @@ import FeaturedProperties from './FeaturedProperties/FeaturedProperties.jsx'
 import PropertyCategories from './PropertyCategories/PropertyCategories.jsx'
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx"
 import HowItWorks from './HowItWorks/HowItWorks.jsx'
+import Testimonials from './Testimonials/Testimonials.jsx'
+import Footer from './Footer/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +20,7 @@ createRoot(document.getElementById('root')).render(
     <PropertyCategories/>
     <WhyChooseUs/>
     <HowItWorks/>
+    <Testimonials/>
+    <Footer/>
   </StrictMode>,
 )
